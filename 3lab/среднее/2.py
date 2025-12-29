@@ -16,7 +16,6 @@ class Student:
     def show_info(self):
         return f"{self.name}, {self.age} лет, средний балл: {self.get_average():.2f}"
 
-# Использование
 student = Student("Саша", 19)
 student.add_grade(5)
 student.add_grade(4)
